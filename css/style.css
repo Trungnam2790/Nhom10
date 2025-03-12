@@ -1,0 +1,204 @@
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Header */
+header {
+    background: #0073e6;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#darkModeToggle {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+/* Hero section */
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #0073e6, #0044cc);
+    color: white;
+}
+
+#hero .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#hero h1 span {
+    color: #ffcc00;
+}
+
+/* Portfolio section */
+#portfolio {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.project {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+    background: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+/* Subjects section */
+#subjects {
+    padding: 50px 20px;
+    text-align: center;
+    background: #eef2f6;
+}
+
+#subjects ul {
+    list-style: none;
+    padding: 0;
+}
+
+#subjects li {
+    display: inline-block;
+    background: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: transform 0.3s;
+}
+
+#subjects li:hover {
+    transform: scale(1.1);
+    background: #005bb5;
+}
+
+/* Hobbies section */
+#hobbies {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#hobbies ul {
+    list-style: none;
+    padding: 0;
+}
+
+#hobbies li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Services section */
+#services {
+    padding: 50px 20px;
+    text-align: center;
+    background: #eef2f6;
+}
+
+.service {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px;
+    background: #0073e6;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+/* Contact section */
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #0073e6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background: #005bb5;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark-mode header {
+    background: #333;
+}
+
+.dark-mode .service, .dark-mode button {
+    background: #ffcc00;
+    color: #333;
+}
+
+.dark-mode button:hover {
+    background: #e6b800;
+}
