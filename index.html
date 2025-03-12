@@ -3,72 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Nguyen Trung Kien</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="script.js" defer></script>
+
+    <title>Hồ sơ Công nghệ thông tin</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">Trung Kien</div>
-            <ul>
-                <li><a href="#about">Giới thiệu</a></li>
-                <li><a href="#portfolio">Dự án</a></li>
-                <li><a href="#subjects">Môn học</a></li>
-                <li><a href="#hobbies">Sở thích</a></li>
-                <li><a href="#services">Dịch vụ</a></li>
-                <li><a href="#contact">Liên hệ</a></li>
-                <li><button id="darkModeToggle">🌙</button></li>
-            </ul>
-        </nav>
+        <img src="https://scontent.fsgn1-1.fna.fbcdn.net/v/t39.30808-1/434701791_384439631081530_6083688268875267291_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=P9xknQSiYgQQ7kNvgHfYu6c&_nc_oc=AdgZX44knyWsAkww-JOIfAxqtSG8x-hhMzkZAmECUm-KQV0nVJw1qNAaCORV39dhWYQ&_nc_zt=24&_nc_ht=scontent.fsgn1-1.fna&_nc_gid=Ar1J2n8lmfEkmWjZBpTVgVa&oh=00_AYF1D40eJKcsl9_kUofvWd3nAxhLzm0ho0DpGI_BCFHRjQ&oe=67D6D20A" alt="Avatar Nguyễn Thành Phú" class="avatar">
+        <h1>Nguyễn Thành Phú</h1>
+        <p>Giới thiệu về bản thân và các đồ án đã thực hiện.</p>
     </header>
-    
-    <section id="hero">
-        <div class="hero-content">
-            <img src="images/avatar.jpg" alt="Nguyen Trung Kien" class="avatar">
-            <h1>Xin chào, tôi là <span>Nguyễn Trung Kiên</span></h1>
-            <p>Lập trình viên Web & Phát triển phần mềm</p>
-        </div>
-    </section>
-
-    <section id="portfolio">
-        <h2>Dự án tiêu biểu</h2>
-        <div class="project">
-            <img src="images/project1.jpg" alt="Dự án 1">
-            <h3>Quản lý Sinh viên</h3>
-        </div>
-        <div class="project">
-            <img src="images/project2.jpg" alt="Dự án 2">
-            <h3>Ứng dụng Chat Realtime</h3>
-        </div>
-    </section>
-
-    <section id="subjects">
-        <h2>Các môn học yêu thích</h2>
+    <section class="projects">
+        <h2>Các đồ án đã thực hiện</h2>
         <ul>
-            <li>✅ Lập trình Web</li>
-            <li>✅ Trí tuệ nhân tạo</li>
-            <li>✅ Xử lý dữ liệu lớn</li>
-            <li>✅ An ninh mạng</li>
+            <li>
+                <h3>Đồ án 1: Quản lý sinh viên</h3>
+                <p>Mô tả: Hệ thống quản lý sinh viên bằng PHP và MySQL.</p>
+            </li>
+            <li>
+                <h3>Đồ án 2: Ứng dụng Hutech Event</h3>
+                <p>Mô tả: Ứng dụng nhắn tin thời gian thực sử dụng Node.js và Socket.io.</p>
+            </li>
+            <li>
+                <h3>Đồ án 3: Website bán hàng</h3>
+                <p>Mô tả: Trang web thương mại điện tử với Laravel và Vue.js.</p>
+            </li>
         </ul>
     </section>
+    <footer>
+        <p>Liên hệ: <a href="nt.phu268@gmail.com">nt.phu268@gmail.com</a></p>
+    </footer>
 
-    <section id="hobbies">
-        <h2>Sở thích</h2>
-        <ul>
-            <li>💻 Lập trình & phát triển phần mềm</li>
-            <li>📖 Đọc sách về công nghệ</li>
-            <li>🎮 Chơi game & nghiên cứu AI trong game</li>
-            <li>⚽ Chơi bóng đá & cầu lông</li>
-        </ul>
-    </section>
-
-    <section id="services">
-        <h2>Dịch vụ</h2>
-        <div class="service">💻 Lập trình Web</div>
-        <div class="service">🤖 Machine Learning</div>
-        <div class="service">⚙️ Tự động hóa</div>
-    </section>
 
     <section id="contact">
         <h2>Liên hệ</h2>
@@ -79,5 +44,6 @@
             <button type="submit">Gửi</button>
         </form>
     </section>
+
 </body>
 </html>
